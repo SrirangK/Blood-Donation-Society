@@ -1,0 +1,141 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    font-family:'Poppins', sans-serif;;
+}
+.container{
+    width: 90vw;
+    margin: auto;
+}
+.lg-heading{
+    font-size: 4rem;
+}
+.md-heading{
+    font-size: 2rem;
+    text-decoration: underline;
+}
+.light-para{
+    font-size: 2rem;
+    color: #504b4b;
+}
+.light-para2{
+    color: #504b4b;
+    font-size: 1.6rem;
+}
+.name{
+    font-size: 2rem;
+}
+.job{
+    font-size: 1.5rem;
+    color: red;
+}
+.red-text{
+    color: rgb(226, 12, 22);
+}
+.herosection{
+    height: 65rem;
+    background-image: linear-gradient( 135deg, #FFF6B7 10%, #F6416C 100%);
+}
+.hero-text{
+    width: 100%;
+    margin-top: 10rem;
+    text-align: center;
+}
+.hero-img{
+    display: none;
+}
+.meet{
+    margin-top: 10rem;
+    height: auto;
+}
+.meet-text::after{
+    contain: ' ';
+    display: block;
+    border: 2px solid red;
+    width: 40%;
+}
+.meet-text{
+    border-bottom: 4.5px solid red;
+}
+.photos{
+    display: none;
+}
+i{
+    margin: 1.5rem 1.5rem 0rem 0rem;
+}
+
+@media (max-width:1200px){
+    html{
+        font-size: 8px;
+    }
+    .photos{
+        flex-wrap: wrap;
+
+    }
+}
+@media (max-width:1000px){
+    html{
+        font-size: 10px;
+    }
+    .hero-img{
+        display:none;
+    }
+    .hero-text{
+        float: none;
+        /* text-align: center; */
+        width: 100%;
+        padding: 10rem;
+    }
+}
+@media (max-width:840px){
+    html{
+        font-size: 8px;
+    }
+    .photos{
+        flex-wrap: wrap;
+    }
+    .person{
+        margin: auto;
+    }
+}
+@media (max-width:675px){
+html{
+    font-size: 6px;
+}
+.photos{
+    flex-wrap: wrap;
+}
+.person{
+    margin: auto;
+}
+}
+@media (max-width:500px){
+html{
+    font-size: 5px;
+}
+.photos{
+    flex-wrap: wrap;
+}
+.person{
+    margin: auto;
+}
+}
+@media (max-width:420px){
+    html{
+        font-size: 5px;
+    }
+    .lg-heading{
+        font-size: 3rem;
+    }
+    .photos{
+        flex-wrap: wrap;
+    }
+    .person{
+        margin: auto;
+    }
+    }
